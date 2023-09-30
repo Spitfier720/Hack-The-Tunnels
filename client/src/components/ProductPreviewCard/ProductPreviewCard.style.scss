@@ -1,14 +1,22 @@
 .product-preview-card {
   &__title {
     font-style: bold;
-    color: green;
+    color: red;
+    text-align: center;
   }
 
   &__description {
     color: blue;
+    text-align: center;
   }
 
   &__image {
     width: 10rem;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
   }
+  
+  position: relative;
+  left: 25%;
 }
