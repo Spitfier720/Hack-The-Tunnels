@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import { OrderService } from "../../../services";
 import { success, error } from "../utils";
+import {sms} from "../../sms";
 
 const router = express.Router();
 
@@ -36,6 +37,7 @@ const createOrder = async (request: Request, response: Response) => {
     });
   }
 
+  await sms();
   return success(response, {
     data: {
       order: result.val,
