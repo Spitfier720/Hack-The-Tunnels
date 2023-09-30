@@ -14,3 +14,18 @@
     }
   }
 }
+
+@media (prefers-color-scheme: light) {
+  .home-page {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .home-page {
+    background: rgb(32, 32, 32);
+    color: rgb(195, 195, 194);
+  }
+}
+
