@@ -2,6 +2,7 @@ COMPLETED:
 Add-404-Page (2)
 Add-Footer-Component (2)
 Add-Font-Style (1)
+Add-Login-Page-Form (3)
 Add-Navbar-Component (3)
 Hello-Client (1)
 Hello-Service (1)
@@ -11,6 +12,7 @@ Update-Page-Title (1)
 TOTAL POINTS: 12
 
 IN PROGRESS:
-Add-Login-Page-Form (3)
 Add-Partial-Dark-Mode (3)
+Add-Search-Bar-Component (2)
 Responsive-Home-Page-Products (2)
+Send-SMS-With-Twilio (13)
