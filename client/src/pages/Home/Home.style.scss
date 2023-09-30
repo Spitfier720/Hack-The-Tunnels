@@ -1,12 +1,27 @@
 .home-page {
+  @keyframes comicSansAnim {
+    0% {color: maroon;}
+    10% {color: red;}
+    20% {color: orange;}
+    30% {color: yellow;}
+    40% {color: lime;}
+    50% {color: cyan;}
+    60% {color: cornflowerblue;}
+    70% {color: blue;}
+    80% {color: purple;}
+    90% {color: magenta;}
+  }
+
   &__title {
+    animation: comicSansAnim 1s infinite;
     color: red;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
 
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px 20px;
 
     a {
       text-decoration: none;
