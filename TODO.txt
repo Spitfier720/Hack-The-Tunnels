@@ -1,5 +1,6 @@
 COMPLETED:
 Add-404-Page (2)
+Add-Footer-Component (2)
 Add-Font-Style (1)
 Add-Navbar-Component (3)
 Hello-Client (1)
@@ -7,7 +8,7 @@ Hello-Service (1)
 Update-Favicon (1)
 Update-Page-Title (1)
 
-TOTAL POINTS: 10
+TOTAL POINTS: 12
 
 IN PROGRESS:
 Add-Login-Page-Form (3)
